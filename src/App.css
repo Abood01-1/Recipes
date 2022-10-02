@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+}
+
+.App{
+  width: 100%;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  color: rgb(35, 34, 34);
+}
+
+.heading{
+  padding: 20px 0px;
+  background-color: rgb(203, 186, 174);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading img{
+  width: 100px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+}
+
+form input{
+  width: 400px !important;
+  padding-top: 6px ;
+  padding-bottom: 6px ;
+  padding-right: 60px;
+  font-size: 15px;
+  padding-left: 10px;
+  border: none;
+}
+
+form input:focus{
+  outline: none;
+}
+
+.all-recipes{
+  padding: 40px 70px;
+  gap: 20px;
+}
+
+@media (max-width:753px){
+  .all-recipes{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+}
+
+@media (max-width:491px){
+  form input{
+    width: 300px !important;
+  }
+}
+
+@media (max-width:392px){
+  form input{
+    font-size: 15px !important;
+    width: 250px !important;
+  }
+
+  form button{
+    padding: 7px !important;
+    font-size: 15px !important;
+
+  }
+}
+
+@media (max-width:326px){
+
+  form input{
+    width: 200px !important;
+  }
+}
+
+@media (max-width:276px){
+
+  form input{
+    width: 150px !important;
+    font-size: 13px !important;
+  }
+  form button{
+    font-size: 13px !important;
+    padding: 5px !important;
+  }
+
+  .heading img{
+    width: 80px;
+  }
+}
+
+@media (max-width:247px){
+  .heading h1{
+    font-size: 22px;
+  }
+}
+
+

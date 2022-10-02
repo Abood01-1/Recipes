@@ -1,0 +1,94 @@
+.card{
+    transition: 0.2s;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+p{
+    font-size: 17px;
+}
+
+span{
+    font-weight: 500;
+}
+
+@media (max-width:392px) {
+    
+    .card{
+        margin-left: -30px;
+    }
+    
+}
+
+@media (max-width:360px){
+    .card{
+        margin-left: -40px;
+    }
+}
+
+@media (max-width:346px){
+    .card{
+        margin-left: -50px;
+    }
+}
+
+@media (max-width:326px){
+    .card{
+        width: 250px !important;
+    }
+
+    
+
+    .card p{
+        font-size: 16px;
+    }
+
+    .card span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width:287px){
+    .card{
+        margin-left: -60px;
+    }
+}
+
+@media (max-width:276px){
+    .card{
+        width: 200px !important;
+        margin-left: -40px;
+    }
+
+    .card h5{
+        font-size: 17px;
+    }
+
+    .card p{
+        font-size: 15px;
+    }
+
+    .card span{
+        font-size: 14px;
+    }
+    
+    .card a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:247px){
+    .card{
+        margin-left: -60px;
+    }
+}
+
+@media (max-width:228px){
+    .card{
+        width: 180px !important;
+    }
+}
